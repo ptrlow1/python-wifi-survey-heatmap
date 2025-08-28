@@ -21,9 +21,9 @@ Operating System support
 
 As mentioned in the description, this project is for **LINUX ONLY**. That doesn't mean a Linux docker container on Windows or Mac, or running it on Mac. The WiFi features - the heart of this project - are built on `libnl3 <https://pypi.org/project/libnl3/>`__, a Python wrapper around the Netlink protocol-based Linux kernel interfaces. In short, the survey commands will **only** work on a system that's running Linux, and where the Linux kernel is directly managing the WiFi hardware.
 
-For people not running Linux, I am aware of (but have no affiliation with, haven't used, and can't endorse) the following projects:
+Especially for people not running Linux, I am also aware of (but have no affiliation with, haven't used, and can't endorse) the following projects:
 
-* `hnykda/wifi-heatmapper <https://github.com/hnykda/wifi-heatmapper>`__ for MacOS
+* `hnykda/wifi-heatmapper <https://github.com/hnykda/wifi-heatmapper>` - supports Windows, Linux, and MacOS
 
 Quick start
 -----------
